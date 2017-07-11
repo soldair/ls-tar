@@ -1,0 +1,30 @@
+{
+  "name": "ls-tar",
+  "version": "1.0.0",
+  "description": "ls a tar with node tar in child processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/ls-tar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soldair/ls-tar/issues"
+  },
+  "homepage": "https://github.com/soldair/ls-tar#readme",
+  "dependencies": {
+    "end-of-stream": "^1.4.0",
+    "split2": "^2.1.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "nyc": "^11.0.3",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0"
+  }
+}
